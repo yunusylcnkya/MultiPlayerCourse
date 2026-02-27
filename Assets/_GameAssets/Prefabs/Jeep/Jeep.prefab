@@ -1044,6 +1044,7 @@ GameObject:
   - component: {fileID: 3405047921381708086}
   - component: {fileID: 4765007032131713020}
   - component: {fileID: 9004957257087631822}
+  - component: {fileID: 102639921302734553}
   - component: {fileID: 7556343396837494852}
   - component: {fileID: 440237093634495333}
   - component: {fileID: 6621383314157475330}
@@ -1083,7 +1084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 2056396060
+  GlobalObjectIdHash: 3668965826
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 8
@@ -1210,6 +1211,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerNetworkController
   ShowTopMostFoldoutHeaderGroup: 1
   _playerCamera: {fileID: 3900028216881435584}
+--- !u!114 &102639921302734553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678185013874546048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 678efb144ce451848b5b2ee8f8ce0908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractionController
+  ShowTopMostFoldoutHeaderGroup: 1
 --- !u!135 &7556343396837494852
 SphereCollider:
   m_ObjectHideFlags: 0
