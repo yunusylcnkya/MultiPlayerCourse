@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918237823980819814}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20697577, y: 0.0000000047168043, z: -9.978722e-10, w: 0.9783461}
+  m_LocalRotation: {x: 0.20697574, y: -0, z: -0, w: 0.9783461}
   m_LocalPosition: {x: 0, y: 3.92, z: -8.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1045,6 +1045,7 @@ GameObject:
   - component: {fileID: 4765007032131713020}
   - component: {fileID: 9004957257087631822}
   - component: {fileID: 102639921302734553}
+  - component: {fileID: 7536639190089043867}
   - component: {fileID: 7556343396837494852}
   - component: {fileID: 440237093634495333}
   - component: {fileID: 6621383314157475330}
@@ -1224,6 +1225,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractionController
   ShowTopMostFoldoutHeaderGroup: 1
+--- !u!114 &7536639190089043867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678185013874546048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f855e6a316c85449b0fdc58c8e2672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSkillController
+  _hasSkillAlready: 0
 --- !u!135 &7556343396837494852
 SphereCollider:
   m_ObjectHideFlags: 0
