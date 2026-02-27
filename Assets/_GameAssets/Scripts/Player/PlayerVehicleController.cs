@@ -25,6 +25,10 @@ public class PlayerVehicleController : MonoBehaviour
     private float _steerInput;
     private float _accelerationInput;
 
+    public Vector3 Forward => transform.forward;
+    public Vector3 Velocity => _vehicleRigidbody.linearVelocity;
+    public VehicleSettingsSO Settings => _vehicleSettings;
+
     private void Awake()
     {
         _springDatas = new Dictionary<WheelType, SpringData>();
@@ -291,6 +295,11 @@ public class PlayerVehicleController : MonoBehaviour
     private bool IsGrounded(WheelType wheelType)
     {
         return _springDatas[wheelType]._currentLength < _vehicleSettings.SpringRestLenght;
+    }
+
+    public float GetSpringCurrentLength(WheelType wheelType)
+    {
+        return _springDatas[wheelType]._currentLength;
     }
 }
 
