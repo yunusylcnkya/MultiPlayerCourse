@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87b448861aaa1694ba39bd9a61e7f690, type: 3}
   m_Name: ShieldSkillData
   m_EditorClassIdentifier: Assembly-CSharp::SkillDataSO
-  _skillPrefab: {fileID: 0}
+  _skillPrefab: {fileID: 5592135678626946847, guid: 8119977676d5a6743b272f146f3bea1b, type: 3}
+  _skillOffset: {x: 0, y: 0, z: 0}
+  _spawnAmountOrTimer: 7
+  _shoulBeAttachedToParent: 1
+  _respawnTimer: 0
+  _damageAmount: 0
